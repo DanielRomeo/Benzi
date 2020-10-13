@@ -10,13 +10,14 @@
 //Lexer class:
 class Lexer{
     private:
-    std::string type;
-    std::string value;
+    int pos;
+    std::string text;
+    char current_char = '\0';
 
     public:
-    void autorun(std::string type, std::string value);
-    Lexer(std::string type, std::string value);
-
+    void advance(); //iterator that moves to the next charector.
+    Lexer(std::string type);
+    void makeTokens(); // loop through the users input whilst determining the Tokens.
 };
 
 
