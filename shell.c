@@ -1072,7 +1072,7 @@ static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_text[] = "text";
-static const char __pyx_k_benzi[] = "benzi > ";
+static const char __pyx_k_benzi[] = "benzi>> ";
 static const char __pyx_k_input[] = "input";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
@@ -1160,7 +1160,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "shell.pyx":2
  * while True:
- * 	text = input("benzi > ")             # <<<<<<<<<<<<<<
+ * 	text = input("benzi>> ")             # <<<<<<<<<<<<<<
  * 	print(text)
  */
   __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_benzi); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 2, __pyx_L1_error)
@@ -1448,14 +1448,14 @@ if (!__Pyx_RefNanny) {
 
   /* "shell.pyx":1
  * while True:             # <<<<<<<<<<<<<<
- * 	text = input("benzi > ")
+ * 	text = input("benzi>> ")
  * 	print(text)
  */
   while (1) {
 
     /* "shell.pyx":2
  * while True:
- * 	text = input("benzi > ")             # <<<<<<<<<<<<<<
+ * 	text = input("benzi>> ")             # <<<<<<<<<<<<<<
  * 	print(text)
  */
     __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_input, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
@@ -1465,7 +1465,7 @@ if (!__Pyx_RefNanny) {
 
     /* "shell.pyx":3
  * while True:
- * 	text = input("benzi > ")
+ * 	text = input("benzi>> ")
  * 	print(text)             # <<<<<<<<<<<<<<
  */
     __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_text); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
@@ -1476,7 +1476,7 @@ if (!__Pyx_RefNanny) {
 
   /* "shell.pyx":1
  * while True:             # <<<<<<<<<<<<<<
- * 	text = input("benzi > ")
+ * 	text = input("benzi>> ")
  * 	print(text)
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
