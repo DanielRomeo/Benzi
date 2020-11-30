@@ -29,26 +29,26 @@ cdef class Token:
 # LEXER CLASS
 ########################
 
-class Lexer(object):
+cdef class Lexer(object):
 	"""docstring for Lexer"""
 
 	#declarations
 	cdef str text
 	cdef int pos
 	cdef char current_char 
-	cdef tokens = str[]
+	
 
 	#constructor
 	def __init__(self, text):
 		self.text = text
 		self.pos = -1
-		self.current_char = None
+		self.current_char = '\0'
 		self.advance()
 		
 	#move_along function
 	def advance(self):
 		self.pos += 1
-		self.current_char = self.text[pos] if self.pos < len(self.text) else None
+		self.current_char = self.text[self.pos] if self.pos < len(self.text) else '\0'
 
 	#token_determiner
 	def make_tokens(self):
