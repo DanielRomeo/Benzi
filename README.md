@@ -13,8 +13,15 @@ Activate venv with the following command:
 source /venv/bin/activate
 ```
 
-To execute the program, in the root dir:
+To compile the program, in the root dir:
+
+```xml-dtd
 python3 setup.py build_ext --inplace
+```
+To execute the program, in the root dir:
+```xml-dtd
+python3 main.py
+```
 
 When done developing; deactivate virtual environment with the following command: 
 
