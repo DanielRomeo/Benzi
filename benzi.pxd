@@ -17,4 +17,4 @@ cdef class Lexer(object):
 	
 cdef class Token:
 	cdef str thetype 
-	# cdef str value
+	cdef value

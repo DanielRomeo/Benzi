@@ -870,11 +870,12 @@ struct __pyx_obj_5benzi_Lexer {
  * 
  * cdef class Token:             # <<<<<<<<<<<<<<
  * 	cdef str thetype
- * 	# cdef str value
+ * 	cdef value
  */
 struct __pyx_obj_5benzi_Token {
   PyObject_HEAD
   PyObject *thetype;
+  PyObject *value;
 };
 
 
